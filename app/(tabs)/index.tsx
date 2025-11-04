@@ -5,7 +5,6 @@ export default function LoginScreen() {
   const [isLogin, setIsLogin] = useState(true);
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-
   return (
     <View style={styles.container}>
       {isLogin ? (
